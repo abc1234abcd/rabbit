@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.env
+*.env.*
+*.pyenv
+*.pyd
+*.pid
+*.tgz
+*.zip
+
+# Virtual Environment
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Django static files and media
+/static/
+# Cache and session files
+/cache/
+
+# Django secret key and settings
+*.key
+*.pem
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Django migrations
+*/migrations/*
+
+# Database files
+*.db
+*.sqlite3
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# dotenv files
+.env
+.env.*
+
+# gitattributes
+.gitattributes
