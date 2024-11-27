@@ -159,7 +159,7 @@ def getAccBalance():
         return accountBalance
     except requests.RequestException as e:
         logging.error(f"Get Kraken account balance failed {e}.")
-        
+    
 def getExtendedBalance():
     try:
         load_dotenv()
