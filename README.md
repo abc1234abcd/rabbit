@@ -1,4 +1,4 @@
-Rabbit is able to: 
+**Rabbit is able to:** 
 
 1. display live spot price of (one or multiple) chose assets on an adjustable screen(alwasy in-front display of all open windows).
    
@@ -16,3 +16,5 @@ Rabbit is able to:
    
    Aim: I use RSI as an indicator to generate buy and sell signal on xrp/usd market at live time. So far, it generates positive profit before transaction fee so I really didnot run it.    
    It connected to the telegram botfather too, so I will be getting live notification about the bot loggings through telegram messages.
+   
+5. kraken_market_info.py persisted kraken exchange data over different markets in MongoDB database. It should be serialized into the db but not indeed in this script.
